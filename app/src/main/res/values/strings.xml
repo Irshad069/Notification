@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Notifications</string>
+    <string name="media_style">Media Style</string>
+    <string name="progress_style">Progress Style</string>
+    <string name="messaging_style">Messaging Style</string>
+    <string name="group">Group</string>
+</resources>

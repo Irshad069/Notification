@@ -49,6 +49,12 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-//media
+    //media
     implementation (libs.androidx.media)
+    // Core coroutines library
+    implementation (libs.kotlinx.coroutines.core)
+    // Android coroutines support library
+    implementation (libs.kotlinx.coroutines.android)
+    //view model scope
+    implementation (libs.androidx.lifecycle.viewmodel.ktx)
 }

@@ -8,9 +8,7 @@ import com.example.notifications.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private val viewModel: NotificationViewModel by viewModels {
-        NotificationViewModelFactory(this)
-    }
+    private val viewModel: NotificationViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

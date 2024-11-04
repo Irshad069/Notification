@@ -6,16 +6,16 @@ class NotificationRepository(private val context: Context) {
 
     private val notificationHelper = NotificationHelper(context)
 
-    fun sendMediaStyleNotification(){
+    suspend fun sendMediaStyleNotification(){
         notificationHelper.sendMediaStyleNotification()
     }
-    fun sendProgressStyleNotification(){
+    suspend fun sendProgressStyleNotification(){
         notificationHelper.sendProgressStyleNotification()
     }
-    fun sendMessagingStyleNotification(){
+    suspend fun sendMessagingStyleNotification(){
         notificationHelper.sendMessagingStyleNotification()
     }
-    fun sendGroupStyleNotification(){
+    suspend fun sendGroupStyleNotification(){
         notificationHelper.sendGroupNotification()
     }
 

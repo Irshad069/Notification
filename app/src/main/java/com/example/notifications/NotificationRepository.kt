@@ -2,20 +2,20 @@ package com.example.notifications
 
 import android.content.Context
 
-class NotificationRepository(private val context: Context) {
+class NotificationRepository(context: Context) {
 
     private val notificationHelper = NotificationHelper(context)
 
-    suspend fun sendMediaStyleNotification(){
+    fun sendMediaStyleNotification(){
         notificationHelper.sendMediaStyleNotification()
     }
-    suspend fun sendProgressStyleNotification(){
+    fun sendProgressStyleNotification(){
         notificationHelper.sendProgressStyleNotification()
     }
-    suspend fun sendMessagingStyleNotification(){
+    fun sendMessagingStyleNotification(){
         notificationHelper.sendMessagingStyleNotification()
     }
-    suspend fun sendGroupStyleNotification(){
+    fun sendGroupStyleNotification(){
         notificationHelper.sendGroupNotification()
     }
 
